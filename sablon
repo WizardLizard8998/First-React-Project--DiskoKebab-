@@ -1,0 +1,302 @@
+
+
+------------
+	text
+------------
+num |  | mail|
+----	------
+-----------------
+	adress
+
+	MAp
+
+--------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------
+name , surname , mail , number , password, address   --> all user data 
+
+			pk                                         
+
+
+
+
+
+
+
+
+
+database --> http request --> application
+
+
+bwde napmıs ? 
+till the data comes which requested from server an method which is called http requests is processes 
+a method called promise  and  this promise returns 2 data-like thing 
+first 1  : --> resolve 
+second 2 :--> reject 
+
+axios.post().then()
+
+this is a zincir which is process --
+--> axios ==> is the processes methods name
+--> post ==>  sends information the server in order to find data 
+--> then ==> if post succeed then do these processes
+--> catch ==> if post is not succeed then dont do these process
+
+
+okta.com napmıs ? 
+ 
+
+
+
+user = {
+	mail : nvarchar, 
+	password : nvarchar,
+	number : nvarchar, 
+	name :  nvarchar	
+}
+
+
+------------------------OR--------------------
+
+name {
+	id 
+	name
+}
+
+Mail
+{ id
+  mail
+}
+
+Password
+{ id
+   pass
+}
+
+Number
+{  id 
+    number 
+}
+
+users{
+	id  	
+}
+
+--------------- OR ----------
+JSON 
+
+*-------*******-------------*
+
+
+
+
+----------------------------
+
+button1 ( login)
+
+button2 (sign up )
+
+----------------------------
+
+//DONE
+
+button 1 --> loginPage
+button 2 --> signupPage 
+
+
+buttonbox { //DONE
+
+	button1 { login // onClick --> loginPage } 
+	button2 { signup // onCLick --> signupPage }
+
+}
+
+
+signup--> ( 
+
+//	for sign up take what written in boxes and send query 
+//	box.login --> table.login
+//	box.pass --> table.pass 
+//	store them in tables which are depend to each other 
+
+
+		mail,number,password --> save somehere else (data)  
+
+)	//DONE  
+
+
+login --> (   
+
+      
+//	in login boxes take what written and save in var
+//	check if data and boxes' vars is equal --
+// 	--> (box.login ?= data.login) && (box.pass ?= data.pass) 
+//	check if data can find anything in database tables 
+
+if (data == login )  --> go on 
+
+else (  
+
+exception handling (try again) 
+
+)
+
+
+) 
+
+---------------------------------------------------------------------------------------------------
+**************************************************************************************************
+---------------------------------------------------------------------------------------------------
+
+
+login --> 
+
+data ? 
+phone & password --> (some var) // console.log 
+
+database (check if any login exist ) 
+
+sign up --> 
+
+number & password & email --> (some var) --> write in database 
+
+----------------------------------------------------------------------------
+
+
+sipariş  --> 
+
+		form {
+			adress 
+			ödeme tipi 
+			isim soyisim 
+			
+		}
+
+
+-----------------------------------------------------------------------------
+
+giriş yap  --> sayfa bilgiyi tutsun --> 
+
+
+
+order  +  adress + numara --> sipariş  
+
+tablo {
+	id --> pk 
+	userid --> diğer bilgilere ulaşmak için (fk)
+	order --> (item1+item2 +item3... )	
+	order time --> getdate()
+	
+	
+}
+
+
+post ( cart ) 
+
+
+let cart = {
+	
+	userPhone = phone
+	order = order 
+}
+		 /\
+		 II
+		 II
+
+button =>(props) {
+	order = props; 
+	
+	order.push(food2) 
+}
+
+
+		push
+(Item )  -->	list.item 
+cartpage --> 	handleclick(item)
+
+
+cartPage --> /data/cart  --> dialog.button 
+(order)	  <--	order	<--		order.item
+
+
+			create context 
+			context.provider
+			cartPage(order.item)
+			/
+		  ...	
+		   /	
+	context.consurmer
+	dialog.button(order.item)
+
+
+contexti app de ata{
+
+
+	context oluştur{
+	context verileri ve metodları yerleştir
+	contexti ( ve context metodları ? ) export et  
+	}
+		context import et{ 
+		usecontext ile var'a set et
+		contexti manipüle et 
+		context var'ı kullan
+		}
+}
+
+
+
+------------------------------------------------------------
+
+
+yazıları beyaz yap  (textfieldlar kaldı )
+
+görünümü biraz daha göze bakılır tut 
+
+kebab olayına uygun bir önplan tut 
+-yöresel olayları ekle 
+- benzer siteleri gözden geçir
+
+
+yazı fonlarını düzelt (fonlara bakılacak)
+
+sivilce çocukdan vazgeç 
+
+aralıkları azalt
+ 
+anasayfa kısmını "ilk bakış" adına daha anlaşılır kıl
+ 
+
+
+
+
+
+
+
+
+
+
+
+

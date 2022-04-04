@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:100%;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+
+.squareitem {
+    
+    background: rgb(107, 3, 3);
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+      
+}
+
+.flex-container {
+   
+    display: flex;
+    
+    flex-flow: row;
+    
+    justify-content: flex-start ;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    background: darkred;
+    padding: 10%;
+    width: 10%;
+    height: 25%;
+    margin-top: 10%;
+    line-height: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }

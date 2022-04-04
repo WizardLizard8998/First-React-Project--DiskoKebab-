@@ -1,0 +1,175 @@
+.denemePage{
+    background-image: url('../IMAGES/background.jpg');
+    background-size: auto;
+    background-position: 150%;
+    display: flow-root;
+    height: 900px   ;
+    width: 100%;
+
+}
+
+.MainPage{
+    background-image: url('../IMAGES/background.jpg');
+    background-size: auto;
+    background-position: 150%;
+    display: flow-root;
+    height: auto   ;
+    width: 100%;
+
+}
+
+.MenuPage{
+    background-image: url('../IMAGES/background.jpg');
+    background-size: auto;
+    background-position: 150%;
+    display: flow-root;
+    height: auto;
+    width: 100%;
+
+}
+
+.LoginPage{
+    background-image: url('../IMAGES/background.jpg');
+    background-size: auto;
+    background-position: 150%;
+    display: flow-root;
+    height: 1080px;
+    width: 100%;
+    position: relative;
+
+}
+
+.mainBox{
+    background-color:rgb(107, 3, 3) ;
+}
+
+.h3{
+    color: whitesmoke;
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+}
+
+.foodBox{
+    display : flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    gap: 20px;
+    margin: 5%;
+}
+
+.textBox{
+    display : flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    gap: 20px;
+    margin-top: 20px;
+        
+}
+
+.LoginBox{
+    display : flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 20px;
+    margin: 5%;
+    color: whitesmoke;
+}
+.map{
+    display : flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-content: stretch;
+    margin: 5%;
+
+}
+
+.sliderContent{
+    background-color:rgb(107, 3, 3) ;
+    align-items: center;
+    display:flex ;
+}
+
+.textGrid{
+    display : flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-content: stretch;
+    gap: 20px;
+    margin: 5%;
+    
+}
+
+.foodlogo{
+    height: 50px;
+    width: 50px; 
+}
+
+.youtube {
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    margin: 5%;
+    
+}
+
+.display{
+    display: flex;
+    margin: 10%;
+    height: auto;
+    width: 70%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+
+}
+
+.menuBox{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: flex-end;
+    
+}
+
+.image{
+    height: 80%;
+    width: 80%;
+}
+
+.typoColor{
+    color: azure;
+}
+
+.backgroundColor{
+    color : rgb(107, 3, 3);
+    display: flex;
+}
+
+.orderGrid{
+    margin : auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
